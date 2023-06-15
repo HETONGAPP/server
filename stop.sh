@@ -1,16 +1,15 @@
 #!/bin/bash
 
-killall webrtc_ros_server_node &
+killall webrtc_ros_serv &
 
-killall realsense2_camera_node &
+killall ivero_slam &
 
 killall ttyd &
 
 killall python3 &
 
-killall rtabmap &
 
-killall web_start 
+killall web_start &
 
 
 
